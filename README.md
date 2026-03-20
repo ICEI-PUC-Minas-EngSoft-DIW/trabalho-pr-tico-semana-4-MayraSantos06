@@ -8,15 +8,15 @@ Nessa atividade, você deverá montar a página inicial do projeto escolhido, a 
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Mayra Luíza Santos da Silva
+- Matricula:911963
+- Proposta de projeto escolhida: Desenvolver um site de catálogos de filmes e séries.
+- Breve descrição sobre seu projeto: O projeto consiste em um site de catálogo de filmes e série, onde o usuário pode visualizar informações como sinopse, gênero e imagem.
 
 
 ## Print do(s) wireframe(s) criado
 
-<<  COLOQUE A IMAGEM AQUI >>
+![wireframe](public/wireframe.png)
 
 
 ## Print da home-page criada
