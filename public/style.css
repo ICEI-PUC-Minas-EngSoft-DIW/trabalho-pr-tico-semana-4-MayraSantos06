@@ -3,21 +3,32 @@ body {
     color: aliceblue;
 }
 .header{
-   padding: 10px;
-   text-align: center;
+    background: #111;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    text-align: center;
 }
-.search-forme input {
+.menu{
+    text-align: left;
+}
+.search-form input {
     padding: 5px;
     margin-right: 5px;
 }
 .sidebar{
     position: fixed;
-    left: 0;
-    top: 0;
+    left: 0px;
+    top: 60px;
     width: 150px;
     height: 100%;
-    background: #f4f4f4;
+    background: #380101;
     padding: 10px;
+}
+.filme1{
+    text-align: center;
 }
 .sidebar ul{
     list-style: none;
@@ -25,4 +36,37 @@ body {
 .sidebar li{
     margin: 10px 0px;
 }
-.main
+.main{
+    margin-left: 170px;
+    margin-top: 70px;
+    padding: 20px;
+}
+
+.filmes .series{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+.card img {
+    width: 150px;
+}
+.card:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+.main .filmes .card img {
+    border-radius: 5px;
+}
+.footer{
+    background: #000000;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
