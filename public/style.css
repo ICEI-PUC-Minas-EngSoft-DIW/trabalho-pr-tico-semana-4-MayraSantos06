@@ -1,11 +1,72 @@
 body {
-    background-color: rgb(23, 33, 65);
+    background-color: rgb(0, 0, 0);
     color: aliceblue;
 }
-input{
-    padding:5px 100px;
+.header{
+    background: #111;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    text-align: center;
+}
+.menu{
     text-align: left;
 }
-img{
-    ali
+.search-form input {
+    padding: 5px;
+    margin-right: 5px;
+}
+.sidebar{
+    position: fixed;
+    left: 0px;
+    top: 60px;
+    width: 150px;
+    height: 100%;
+    background: #380101;
+    padding: 10px;
+}
+.filme1{
+    text-align: center;
+}
+.sidebar ul{
+    list-style: none;
+}
+.sidebar li{
+    margin: 10px 0px;
+}
+.main{
+    margin-left: 170px;
+    margin-top: 70px;
+    padding: 20px;
+}
+
+.filmes .series{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+.card img {
+    width: 150px;
+}
+.card:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+.main .filmes .card img {
+    border-radius: 5px;
+}
+.footer{
+    background: #000000;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
 }
