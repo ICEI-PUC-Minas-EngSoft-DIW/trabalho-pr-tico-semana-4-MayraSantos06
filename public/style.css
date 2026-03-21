@@ -1,3 +1,11 @@
 body {
-    background-color: aquamarine;
+    background-color: rgb(23, 33, 65);
+    color: aliceblue;
+}
+input{
+    padding:5px 100px;
+    text-align: left;
+}
+img{
+    ali
 }
