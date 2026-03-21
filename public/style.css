@@ -3,9 +3,26 @@ body {
     color: aliceblue;
 }
 .header{
-    width: 500px ; 
-    height: 50px;
+   padding: 10px;
+   text-align: center;
 }
-td{
-    margin: 100px 50px;
+.search-forme input {
+    padding: 5px;
+    margin-right: 5px;
 }
+.sidebar{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 150px;
+    height: 100%;
+    background: #f4f4f4;
+    padding: 10px;
+}
+.sidebar ul{
+    list-style: none;
+}
+.sidebar li{
+    margin: 10px 0px;
+}
+.main
